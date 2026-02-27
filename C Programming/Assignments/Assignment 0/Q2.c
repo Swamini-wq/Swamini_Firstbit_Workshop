@@ -1,8 +1,7 @@
-
+#include<stdio.h>
 void main()
 {
-int a=2,b=4, add ;
-
-    add = a+b ;
-    printf ("%d,addition",add);
+    int r=7, area ;
+    area=3.14*r*r;
+    printf("%d,area of circle",area);
 }

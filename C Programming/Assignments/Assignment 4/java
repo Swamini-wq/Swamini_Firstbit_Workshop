@@ -1,0 +1,13 @@
+public class test{
+    public static void main (string[]args){
+        Test.getEmployeeDetails ( new admin(103,"virat,35000,4000"));
+        Test.getEmployeeDetails( new SalesManager( 102,"rohit ", 25000,30000,5))
+        public static void getEmployeeDetils(employee e){
+            if ( e instanceof SalesManager ){
+                salesmanager s1=(salesmanager)e;
+                system.out.println( s1.getIncentive());
+            }
+        }
+    public static void main
+    }
+}
